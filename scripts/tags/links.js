@@ -40,7 +40,7 @@ function linkGrid(args, content) {
 
   const siteHost = url.parse(hexo.config.url).hostname || hexo.config.url;
 
-  const list = yaml.safeLoad(content);
+  const list = yaml.load(content);
 
   var result = ''
 
@@ -63,7 +63,7 @@ function linkGrid(args, content) {
 
     item.color = item.color? ` style="--block-color:${item.color};"` : '';
 
-    result += `<div class="item" title="${item.owner || item.site}"${item.color}>`;
+    result += `<div class="item" title="${item.owner || item.site}" ${item.color}>`;
 
     if (urlparam.protocol && urlparam.hostname !== siteHost) {
       var durl = Buffer.from(item.url).toString('base64');

@@ -1,8 +1,8 @@
 # Alternate site name
-alternate: Yume Shoka
+alternate: wakokara
 
 open_graph:
-  #twitter_id:
+  twitter_id: wakokara
   #google_plus:
   #fb_admins:
   #fb_app_id:
@@ -38,10 +38,10 @@ loader:
 fireworks:
   enable: true
   color:
-    # - "rgba(255,182,185,.9)"
-    # - "rgba(250,227,217,.9)"
-    # - "rgba(187,222,214,.9)"
-    # - "rgba(138,198,209,.9)"
+     - "rgba(255,182,185,.9)"
+     - "rgba(250,227,217,.9)"
+     - "rgba(187,222,214,.9)"
+     - "rgba(138,198,209,.9)"
 
 font:
   enable: true
