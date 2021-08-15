@@ -6,7 +6,7 @@
 
 ``` bash
 # cd your-blog
-git clone https://github.com/amehime/hexo-theme-shoka.git ./themes/shoka
+git clone https://github.com/waxsd100/hexo-theme-shoka.git ./themes/shoka
 ```
 
 2. Make changes to the root `_config.yml`
